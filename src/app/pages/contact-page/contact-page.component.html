@@ -1,0 +1,6 @@
+<div class="contact-page">
+    <h1>Contact-Page</h1>
+    <contact-filter (onSetFilter)="onSetFilter($event)"></contact-filter>
+    <button class="p-button" (click)="gotoAdd()">Add New Contact!</button>
+    <contact-list [contacts]="contacts"></contact-list>
+</div>

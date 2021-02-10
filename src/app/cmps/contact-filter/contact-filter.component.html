@@ -1,0 +1,6 @@
+<div class="contact-filter">
+    <form (submit)="setFilter(filterBy)">
+        <input class="p-input" type="text" name="term" [(ngModel)]="filterBy.term" autocomplete="off">
+        <button class="p-button">filter</button>
+    </form>
+</div>
